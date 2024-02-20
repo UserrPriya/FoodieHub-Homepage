@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, innitial-scale=1.0">
+        <link rel="stylesheet" href="Assignment 1.css">
+        <title>filters page</title>
+    
+    </head>
+    <body>
+    <header> 
+    <span class="logo-span">
+        <a href="Assignment 1.html" class="logo"> e!</a>
+    </span>
+    <span class="login-signup">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="create">Create An Account</a>
+    </span>
+    </header>
+    <main>
+    <section >
+        <div class="title-text">Breakfast places in Mumbai</div>
+        <article class="filter">
+            <h1 class="filter-headline">Filter</h1>
+            <p class="select-location">Select Location</p>
+            <input list="place" name="place" placeholder="select location">
+            <datalist id="place">
+                <option>Mumbai</option>
+                <option>Goa</option>
+                <option>Delhi</option>
+                <option>Bengaluru</option>
+            </datalist>
+
+            <div class="cuisine">
+                <p class="Cuisine-headline">Cuisine</p>
+                <label for="Cuisine">North Indian</label>
+                <input type="checkbox" name="North Indian">
+                <label for="Cuisine">South Indian</label>
+                <input type="checkbox" name="South Indian" checked>
+                <label for="Cuisine">Chinese</label>
+                <input type="checkbox" name="Chinese" checked>
+                <label for="Cuisine">Fast Food</label>
+                <input type="checkbox" name="Fast Food">
+                <label for="Cuisine">Street Food</label>
+                <input type="checkbox" name="Street Food">
+            </div>
+            <div class="cost-for-two">
+                <p class="cost">Cost For Two</p>
+                <label for="Cuisine">Less than ₹ 500</label>
+                <input type="radio" name="Less than ₹ 500">
+                <label for="Cuisine">₹ 500 to ₹ 1000</label>
+                <input type="radio" name="₹ 500 to ₹ 1000">
+                <label for="Cuisine">₹ 1000 to ₹ 1500</label>
+                <input type="radio" name="₹ 1000 to ₹ 1500">
+                <label for="Cuisine">₹ 1500 to ₹ 2000</label>
+                <input type="radio" name="₹ 1500 to ₹ 2000">
+                <label for="Cuisine">₹ 2000+</label>
+                <input type="radio" name="₹ 2000+">
+            </div>
+            <div class="sort">
+                <p class="sort-headline">Sort</p>
+                <label for="Cuisine">Price low to high</label>
+                <input type="radio" name="Price low to high">
+                <label for="Cuisine">Price high to low</label>
+                <input type="radio" name="Price high to low">
+            </div>
+
+
+
+        </article>
+        <article class="Result1-article">
+            <img src="./shutterstock_1154073754.png" alt="img" srcset="">
+            <h1 class="upper-headline">The Big Chill Cakery</h1>
+            <h4 class="fort">FORT</h4>
+            <p class="address">Shop 1, Plot D, Samruddhi Complex Chincholi ...</p>
+            <hr>
+            <table>
+                <tr>
+                    <td>CUISINES:</td>
+                    <th>Bakery</td>
+                </tr>
+                <tr>
+                    <td>COST FOR TWO:</td>
+                    <th class="rupees">₹ 700</td>
+                </tr>
+            </table>
+        </article>
+
+        <article class="Result2-article">
+            <img src="./shutterstock_1154073754.png" alt="img" srcset="">
+            <h1 class="upper-headline">The Bake Shop</h1>
+            <h4 class="fort">FORT</h4>
+            <p class="address">Shop 1, Plot D, Samruddhi Complex Chincholi ...</p>
+            <hr>
+
+            <table>
+                <tr>
+                    <td>CUISINES:</td>
+                    <th>Bakery</td>
+                </tr>
+                <tr>
+                    <td>COST FOR TWO:</td>
+                    <th class="rupees">₹ 700</td>
+                </tr>
+            </table>
+        </article>
+
+
+
+
+
+
+        <div class="pagination">
+            <ul>
+                <li><</li>
+                <li class="number1">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>></li>
+            </ul>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
